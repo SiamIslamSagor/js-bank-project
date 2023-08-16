@@ -36,7 +36,6 @@ document.getElementById("btn-withdraw").addEventListener("click", function () {
   const previousBalanceTotal = parseFloat(previousBalanceTotalString);
 
   if (newWithdrawAmount > previousBalanceTotal) {
-    console.log("ok00");
     alert("your withdraw amount is not available in your current balance");
     return;
   }
