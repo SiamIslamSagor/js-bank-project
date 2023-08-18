@@ -16,9 +16,9 @@ document.getElementById("btn-submit").addEventListener("click", function () {
 
   // DANGER: Do Not Verify email or password on the clint side [USE JUST FOR PRACTICE]
   // step 3: verify email and password
-  if (email === "msiamislam12345@gmail.com" && password === "p@ssword") {
+  if (email === "baaperbank@gmail.com" && password === "open@bank") {
     window.location.href = 'bank.html';
   } else {
-    alert('please input valid email or password!');
+    alert('please input valid email or password!  ');
   }
 });
